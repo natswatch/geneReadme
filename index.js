@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generatePage = require('./utils/generateMarkdown.js');
 
 // title of my project and sections entitled Description, Table of Contents, 
 //Installation, Usage, License, Contributing, Tests, and Questions
@@ -66,7 +67,7 @@ const promptUser = () => {
             type: 'checkbox',
             name: 'licenses',
             message: 'Which license(s) is this application covered under (Check all that apply)',
-            choices: ['MIT','ISC', 'GNU GPLv2', 'Apache License 2.0']
+            choices: ['MIT','ISC', 'GNU GPL v2', 'Apache License 2.0']
         },
         {
             type: 'input',
@@ -80,7 +81,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'username',
+            name: 'github',
             message: 'What is your Github username? (required)',
             validate: usernameInput => {
                 if (usernameInput) {
@@ -99,7 +100,7 @@ const promptUser = () => {
                 if (emailInput) {
                     return true;
                 } else {
-                    console.log('Please provide your email address')
+                    console.log('Please provide your email address');
                     return false;
                 }
             }
@@ -110,14 +111,38 @@ const promptUser = () => {
 };
 
 // function to write README file
-function writeToFile = (fileName, data) => {
-    
-}
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, error => {
+            if (error) {
+                console.log(error);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+};
 
 // function to initialize program
 function init() {
-
-}
+    promptUser()
+        .then(data => {
+            return generatePage(data);
+        })
+        .then(pageMarkdown => {
+            return writeFile(pageMarkdown);
+            console.log(pageMarkdown);
+        })
+        .then(writeFileResponse => {
+            console.log(writeFileResponse);
+        })
+        .catch(err => {
+            console.log(err);
+        });
+};
 
 // function call to initialize program
 init();
