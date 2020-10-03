@@ -1,10 +1,10 @@
 
-  # Hello
+  # README example
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT) ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)(https://opensource.org/licenses/ISC) ![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)
+  
 
   ## Description
-  Is it me youre looking?
+  This is a generated markdown text using user's input through command line.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,22 +15,22 @@
   * [Questions](#questions)
   
   ## Installation
-  cause i know just 
+  The installation section will make it clear how to install the application.
 
   ## Usage
-  
+  This section will include information on the various ways the application can be applied. 
 
   ## License(s)
-  MIT, ISC, GNU GPL v2, Apache License 2.0
+  
 
   ## Contributing
-  dsaf
+  Here will be ways to contribute and build on to this application.
 
   ## Tests
-  we
+  The testing section will include ways to ensure the application is working as expected.
 
   ## Questions?
-  find me on Github [ewa]()
-  email me: asfw.com
+  find me on Github [readmemaster]()
+  email me: readmemaster@email.com
 
   
