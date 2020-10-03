@@ -7,7 +7,11 @@ README will display a title, description, installation instructions, usage infor
 https://github.com/natswatch/geneReadme
 
 
-# Walkthrough video
+# Walkthrough media
+<img src="https://user-images.githubusercontent.com/24613646/95002147-c6db9280-0585-11eb-9be2-543856031897.png" width="600">
+<img src="https://user-images.githubusercontent.com/24613646/95002148-c80cbf80-0585-11eb-8adb-d57a6221a1b3.png" width="600">
+
+### Video
 [![Walkthrough video](https://img.youtube.com/vi/HInp13ZhiTM/0.jpg)](https://www.youtube.com/watch?v=HInp13ZhiTM)
 
 [Link to the video](https://www.youtube.com/watch?v=HInp13ZhiTM)
