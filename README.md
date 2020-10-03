@@ -6,4 +6,8 @@ README will display a title, description, installation instructions, usage infor
 # Github Repo URL
 https://github.com/natswatch/geneReadme
 
+
+# Walkthrough video
 [![Walkthrough video](https://img.youtube.com/vi/HInp13ZhiTM/0.jpg)](https://www.youtube.com/watch?v=HInp13ZhiTM)
+
+[Link to the video](https://www.youtube.com/watch?v=HInp13ZhiTM)
