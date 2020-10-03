@@ -1,10 +1,10 @@
 
   # README example
 
-  
+  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)(https://opensource.org/licenses/ISC)
 
   ## Description
-  This is a generated markdown text using user's input through command line.
+  This is a generated markdown text file using user's input through command line.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,16 +15,16 @@
   * [Questions](#questions)
   
   ## Installation
-  The installation secion will make it clear how to install the application.
+  The installation section will make it clear how to install the application.
 
   ## Usage
   This section will include information on the various ways the application can be applied.
 
   ## License(s)
-  
+  ISC
 
   ## Contributing
-  Here will be ways to contribute and build onto this application.
+  Here will be ways to contribute and build onto this application
 
   ## Tests
   The testing section will include ways to ensure the application is working as expected.

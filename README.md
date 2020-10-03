@@ -7,5 +7,7 @@ README will display a title, description, installation instructions, usage infor
 https://github.com/natswatch/geneReadme
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1O9FhY3O_ttADeOZ3GIJZqmE4PHYVIJF8/preview" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.youtube.com/embed/HInp13Zhi" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+
+<iframe src="https://drive.google.com/file/d/1O9FhY3O_ttADeOZ3GIJZqmE4PHYVIJF8/preview" width="640" height="480"></iframe>
